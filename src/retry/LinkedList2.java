@@ -1,6 +1,8 @@
+package retry;
+
 import java.util.NoSuchElementException;
 
-public class LinkedList {
+public class LinkedList2 {
 
 
     private class Node {
@@ -16,7 +18,7 @@ public class LinkedList {
     private Node first;
     private Node last;
 
-    LinkedList() {
+    LinkedList2() {
     }
 
     //addFirst

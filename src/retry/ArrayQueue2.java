@@ -1,12 +1,14 @@
+package retry;
+
 import java.util.Arrays;
 
-public class  ArrayQueue {
+public class ArrayQueue2 {
     private int[] items;
     private int rear;
     private int front;
     private int count;
 
-    public ArrayQueue(int capacity) {
+    public ArrayQueue2(int capacity) {
         items = new int[capacity];
     }
 
